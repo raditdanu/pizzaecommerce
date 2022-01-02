@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaSpotify } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin, FaSpotify } from 'react-icons/fa'
 import {FooterContainer, FooterWrap, SocialMedia, SocialMediaWrap, SocialLogo, SocialIcons, SocialIconLink} from './FooterElements'
 
 const Footer = () => {
@@ -10,8 +10,8 @@ const Footer = () => {
                     <SocialMediaWrap>
                         <SocialLogo to="/">ZPizza</SocialLogo>
                         <SocialIcons>
-                            <SocialIconLink href="/" target="_blank" arial-label="Facebook" rel="noopener noreferrer">
-                                <FaFacebook />
+                            <SocialIconLink href="https://github.com/raditdanu?tab=repositories" target="_blank" arial-label="Github" rel="noopener noreferrer">
+                                <FaGithub />
                             </SocialIconLink>
                             <SocialIconLink href="https://www.instagram.com/raditdanu/" target="_blank" arial-label="Instagram" rel="noopener noreferrer">
                                 <FaInstagram />
